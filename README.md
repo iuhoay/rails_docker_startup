@@ -1,4 +1,4 @@
-# 
+#
 
 Start
 
@@ -24,4 +24,10 @@ Build image
 
 ```
 $ docker-compose build
+```
+
+`debugger` run
+
+```
+$ docker-compose run --service-ports web
 ```
